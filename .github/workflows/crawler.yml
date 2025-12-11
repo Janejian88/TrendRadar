@@ -39,7 +39,7 @@ jobs:
           fi
 
           if [ ! -f config/frequency_words.txt ]; then
-            echo "❌ 错误: config/frequency_words.txt 文件不存在"
+            echo "❌  错误: config/frequency_words.txt 文件不存在"
             echo "请参考项目文档创建频率词配置文件"
             exit 1
           fi
